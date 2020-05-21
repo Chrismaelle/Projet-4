@@ -16,6 +16,8 @@ ExpiresByType application/vnd.geo+json "access plus 0 seconds"
 ExpiresByType application/xml "access plus 0 seconds"
 ExpiresByType text/xml "access plus 0 seconds" 
 
+ExpiresByType text/css "acces plus 1 minute"
+
 ExpiresByType image/x-icon "access plus 1 month"
 ExpiresByType image/vnd.microsoft.icon "access plus 1 month"
 
