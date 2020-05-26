@@ -1,0 +1,24 @@
+<IfModule mod_expires.c>
+  ExpireActif le
+
+  # Images
+  ExpiresByType image / jpeg "access plus 10 minutes"
+  ExpiresByType image / gif "access plus 10 minutes"
+  ExpiresByType image / png "access plus 10 minutes"
+  ExpiresByType image / webp "access plus 10 minutes"
+  ExpiresByType image / svg + xml "access plus 10 minutes"
+  ExpiresByType image / x-icon "access plus 10 minutes"
+
+  # Vidéo
+  ExpiresByType video / mp4 "access plus 10 minutes"
+  ExpiresByType video / mpeg "access plus 10 minutes"
+
+  # CSS, JavaScript
+  ExpiresByType text / css "access plus 10 minutes"
+  ExpiresByType texte / javascript "access plus 10 minutes"
+  ExpiresByType application / javascript "access plus 10 minutes"
+
+  # Autres
+  ExpiresByType application / pdf "access plus 10 minutes"
+  ExpiresByType application / x-shockwave-flash "access plus 10 minutes"
+</IfModule>
