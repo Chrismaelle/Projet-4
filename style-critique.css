@@ -166,15 +166,8 @@ a:hover {
     border: 0px;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-}
+
+
 
 .mg-md {
     margin-top: 10px;
@@ -300,7 +293,6 @@ h1 {
     padding: 40px 40px 40px 40px;
     border-radius: 3em;
 }
-
 .contraste3{
     width: 35%;
 }
@@ -331,6 +323,9 @@ h1 {
 .tc-white {
     color: #F3976C!important;
 }
+.tc-white2 {
+    color: #F3976C!important;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -355,4 +350,74 @@ h1 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation-min.png");
+}
+
+@media (max-width: 568px){
+    .navbar-header {
+        display: flex;
+    }
+    .logo1{
+        width: 8em;
+    }
+    .logo2{
+        width: 100%;
+    }
+    .container.bloc-lg.contraste3{
+        display: flex;
+        justify-content: center;
+    }
+    .col-sm-12.text-center{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .row.row-no-gutters.social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .row.footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .row.tight-width-whitespace.black-background{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .mg-md.text-center.tc-white{
+        font-size: 2rem;
+        width: 180px;
+        position: relative;
+    }
+    .mg-md.text-center.tc-white2{
+        font-size: 2rem;
+        width: 300px;
+        position: relative;
+    }
+    .col-sm-12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-sm-3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .twitter{
+        margin-left: 0;
+    }
+    .col-sm-6{
+        padding-bottom: 40px;
+    }
+    .row.tight-width-whitespace.portfolio-row{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn-rd{
+        width: 100%;
+        font-size: 0.8em;
+    }
 }
